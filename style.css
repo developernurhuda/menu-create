@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-menu {
+    background-color: #008fe7;
+}
+.main-menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+}
+ul li a { 
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+
+.main-menu ul li a:hover {
+    background-color: #72dffd;
+}
+
+/* media quories */
+@media (max-width: 300px ) {
+    .main-menu ul li a {
+        display: block;
+        text-align: center;
+    }
+    .main-menu ul li {
+        float: none;
+    }
+}
+
+
+
+

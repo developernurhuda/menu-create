@@ -13,11 +13,11 @@
     clear: both;
 }
 
-ul li {
+.main-menu ul li {
     float: left;
     list-style-type: none;
 }
-ul li a { 
+.main-menu ul li a { 
     color: white;
     text-decoration: none;
     display: inline-block;
